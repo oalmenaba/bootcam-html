@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Listas</title>
+</head>
+
+<body>
+    <!-- listas ordenadas -->
+    <h2>Listas</h2>
+    <h4>listas ordenadas</h4>
+    <ol type="1" reversed>
+        <li>Item 1 </li>
+        <li>Item 2 </li>
+        <li>Item 3 </li>
+    </ol>
+
+    <!-- listas ordenadas -->
+    <h4>listas no ordenadas</h4>
+    <ul>
+        <li>Item X </li>
+        <li>Item ABC </li>
+        <li>Item nuevo </li>
+        <u>
+            <li>SubNivel 1</li>
+            <ul>
+                <li>SubNivel 2</li>
+            </ul>           
+        </u>
+    </ul>
+
+    <h4>Tablas</h4>
+    <table>
+        <caption> <b>Descripci&aacute;n de Tabla</b></caption>
+        <!-- encabezada filas con los nombre de columnas-->
+        <thead> <!-- elemento de bloque que contiene los elementod del encambezado-->
+            <th style="border: 1px solid #333;">    <!-- elementos del encabezado-->
+                columna 1
+            </th>
+            <th style="border: 1px solid #333;">    <!-- elementos del encabezado-->
+                columna 2
+            </th>
+            <th style="border: 1px solid #333;">    
+                columna 3
+            </th>
+            <th style="border: 1px solid #333;" colspan="2">    
+                columna 3
+            </th>
+        </thead>
+
+        <!-- cuerpo / contenido de la tabla-->
+        <tbody>
+            <tr> <!-- tr: table row -->
+                <td style="border: 1px solid #333;"> <!-- table data-->
+                    elemwnt 1
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt 2
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt 3    
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt x1   
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt x2   
+                </td>
+            </tr>
+            <tr> <!-- tr: table row -->
+                <td style="border: 1px solid #333;"> <!-- table data-->
+                    elemwnt 1.1
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt 2.1
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt 3.1    
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt x1.2   
+                </td>
+                <td style="border: 1px solid #333;"> 
+                    elemwnt x2.1  
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="border: 1px solid #333;">Total</td>
+                <td> valorx</td>
+                <td> valorx2</td>
+                <td> valorx3</td>
+                <td> <input type="button" value="Opt1"></td>
+            </tr>
+            <tr>
+                <td> valorz</td>
+                <td> valorz2</td>
+                <td> valorz3</td>   
+                <td> 
+                    <label for="valore">Ejemplo</label>
+                    <input type="checkbox" name="valore">
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+
+</html>
