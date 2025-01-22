@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <div id="contentTitle">
+        <center>
+            <h2>Formularios</h2>
+
+        </center>
+    </div>
+    <main id="ContentMaster">
+        <div id="FormTitle">
+            <center>
+                <h3>Formulario Persona</h3>
+            </center>
+        </div>
+        <div id="NameForm">
+            <center>
+                <form  method="post">
+                    <label for="txtname">Nambre</label>
+                    <input type="text" name="txtname" id="txtname" required placeholder="Ingrese Nombre">
+                    <br><br>
+                    <label for="txtapellido">Apellido</label>
+                    <input type="text" name="txtapellido" id="txtapellido" required placeholder="Ingrese Apellido">
+                    <br><br><br>
+                    <label for="FechaNac">Fecha Nacimiento</label>
+                    <input type="date" name="FechaNac" required id="FechaNac">
+                    <br><br>
+                    <label for="FechaIng">Fecha Ingreso</label>
+                    <input type="date" name="FechaIng" value="2025-01-21" required readonly id="FechaIng">
+                    <br><br>
+                    <label for="txtEmail">Email</label>
+                    <input type="text" name="txtEmail" id="txtEmail" required placeholder="Ingres email">
+
+                    <button type="submit">Guardar</button>
+                </form>
+            </center>
+        </div>
+    </main>
+</body>
+
+</html>
