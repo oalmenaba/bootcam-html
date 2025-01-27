@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/graficoEstadistico.css">
 </head>
 
 <body>
@@ -69,15 +70,14 @@
                             <div class="description-indicator">Register player</div>
                         </div>
                         <div class="position-rel">
-                            <div class="position-abs r-100">
-                                <input class="imagen-round-50prc" type="image" src="../../assets/user copy.jpg">
+                            <!-- <div class="position-abs r-100"> -->
+                            <div class="position-abs flex-row-center">
+                                <input class="imagen-round-50prc r-100" type="image" src="../../assets/user copy.jpg">
+                                <input class="imagen-round-50prc r-55" type="image" src="../../assets/user copy.jpg">
+                                <input class="imagen-round-50prc r-15" type="image" src="../../assets/user copy.jpg">
                             </div>
-                            <div class="position-abs r-55">
-                                <input class="imagen-round-50prc" type="image" src="../../assets/user copy.jpg">
-                            </div>
-                            <div class="position-abs r-15"">
-                                <input class=" imagen-round-50prc" type="image" src="../../assets/user copy.jpg">
-                            </div>
+                            <!--<div class="position-abs r-55"> -->
+                            <!-- <div class="position-abs r-15"> -->
                         </div>
                     </div>
                     <div class="separator-indicator"></div>
@@ -115,14 +115,54 @@
 
             </div>
         </div>
-        <div class=" content-children">
+        <div class="content-children">
             <div class="div-margin-content">
-                <div>Grafico est</div>
+
+                <section class="d-flex bg-lightwhite" id="skills">
+
+                    <div class="d-flex justify-content-center align-items-center flex-grow-1">
+                        <div class="position-relative chart-wrapper in-view">
+                            <ul class="chart-skills">
+                                <li class="position-relative">
+                                    <span>CSS</span>
+                                </li>
+                                <li class="position-relative">
+                                    <span>HTML</span>
+                                </li>
+                                <li class="position-relative">
+                                    <span>JavaScript</span>
+                                </li>
+                                <li class="position-relative">
+                                    <span>Python</span>
+                                </li>
+                                <li class="position-relative">
+                                    <span>Ruby</span>
+                                </li>
+                            </ul>
+                            <ul class="d-flex position-absolute chart-levels">
+                                <li class="flex-grow-1 position-relative">
+                                    <span class="position-absolute">Novice</span>
+                                </li>
+                                <li class="flex-grow-1 position-relative">
+                                    <span class="position-absolute">Beginner</span>
+                                </li>
+                                <li class="flex-grow-1 position-relative">
+                                    <span class="position-absolute">Intermediate</span>
+                                </li>
+                                <li class="flex-grow-1 position-relative">
+                                    <span class="position-absolute">Advanced</span>
+                                </li>
+                                <li class="flex-grow-1 position-relative">
+                                    <span class="position-absolute">Expert</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
             </div>
         </div>
-        <div
-            style=" background: transparent; background-image:url(../../assets/image.png); background-repeat: no-repeat; background-position: center;background-size:contain;">
-
+        <div class="img-dash">
         </div>
 
 

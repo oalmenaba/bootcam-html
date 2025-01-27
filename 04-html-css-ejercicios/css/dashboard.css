@@ -152,6 +152,29 @@
     border-radius: 50%;
 }
 
+.img-dash {
+    background-image: url("../../assets/graduación-felices-certificado.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.flw-page-bar__controls {
+    flex: 0 0 auto;
+
+}
+
+.flex-row-center {
+    display: flex !important;
+    flex-flow: row;
+    align-items: end;
+    justify-content: center;
+    align-content: center;
+    right: 0px;
+}
+
 .indicator-numb-green-little {
     background-color: rgb(0, 180, 87);
     color: white;
